@@ -1,7 +1,7 @@
 #This Script will manage the store communication via script deployment.
 
-$AptosUsername = "$DeviceName\posluser"
-$AptosPassword = "Y0uThC10Th3$"
+$Username = "XXXXXXXXXXXXX"
+$Password = "XXXXXXXXXXXXX"
 
 
 Function BroadcastMenu {
@@ -40,7 +40,7 @@ Function Opt4Delivery {
 Function BrandSelMenu {
     param ( [string]$Title2 = " " )
 
-    Write-Host "1 -> Gymboree"
+    Write-Host "1 -> Scope 1"
     Write-Host "2 -> Crazy8"
     Write-Host "3 -> Janie Jack"
     Write-Host "4 -> Gymboree Outlet" 
